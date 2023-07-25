@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.paper {
+  padding: 20px;
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.todo-text {
+  flex: 1;
+}
+
+.todo-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.hide-btn {
+  color: gray;
+}
+
+.complete-btn {
+  color: green;
+}
+
+.edit-btn {
+  color: blue;
+}
+
+.search-input {
+  margin-top: 20px;
+}
+/* Add CSS for pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination-btn {
+  margin: 0 5px;
+}
+
+.page-count {
+  margin: 0 10px;
+}

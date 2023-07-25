@@ -1,0 +1,30 @@
+/* Reset some default styles to provide a clean starting point */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* Remove default list styles */
+ul {
+  list-style: none;
+}
+
+ /* basic styles to the app container */ */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(176, 137, 204);
+  font-family: Arial, sans-serif;
+}
+
+
+.todo-list-container {
+  padding: 16px;
+  max-width: 500px;
+  width: 100%;
+}
